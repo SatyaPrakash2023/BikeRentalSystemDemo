@@ -1,0 +1,7 @@
+package com.java.bms;
+
+public class Bike {
+	private int bikeId;
+	private Type type;
+	
+}

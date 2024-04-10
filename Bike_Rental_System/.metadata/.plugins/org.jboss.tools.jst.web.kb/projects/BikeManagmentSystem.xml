@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-coyote.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/ecj-4.6.3.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ant.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper-el.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jdbc.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-util-scan.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-fr.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jaspic-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-dbcp.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/annotations-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/servlet-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jasper.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ru.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-storeconfig.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-ja.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-i18n-es.jar"/>
+  <path value="/BikeManagmentSystem/src/main/webapp/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="BikeManagmentSystem"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-tribes.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/websocket-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/el-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/jsp-api.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-websocket.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/tomcat-jni.jar"/>
+  <path value="D:/apache-tomcat-8.5.42/lib/catalina-ha.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification">
+   <linked-resource declaration="true" name="%1;%2;%3;%4;" path="%0"/>
+  </core>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="30" name="%5" offset="647" path="%6"/>
+   <linked-el length="26" name="%5" offset="1926" path="%7"/>
+   <linked-el length="30" name="%5" offset="1838" path="%8"/>
+   <linked-el length="30" name="%9" offset="647" path="%6"/>
+   <linked-el length="26" name="%9" offset="1926" path="%7"/>
+   <linked-el length="30" name="%9" offset="1838" path="%8"/>
+   <linked-el length="19" name="%10" offset="840" path="%8"/>
+   <linked-el length="19" name="%10" offset="967" path="%8"/>
+   <linked-el length="30" name="%10" offset="647" path="%6"/>
+   <linked-el length="26" name="%10" offset="1926" path="%7"/>
+   <linked-el length="16" name="%10" offset="1097" path="%8"/>
+   <linked-el length="17" name="%10" offset="1632" path="%8"/>
+   <linked-el length="17" name="%10" offset="703" path="%8"/>
+   <linked-el length="19" name="%10" offset="1375" path="%8"/>
+   <linked-el length="19" name="%10" offset="1781" path="%7"/>
+   <linked-el length="14" name="%10" offset="1499" path="%8"/>
+   <linked-el length="22" name="%10" offset="1231" path="%8"/>
+   <linked-el length="30" name="%10" offset="1838" path="%8"/>
+   <linked-el length="17" name="%10" offset="1612" path="%7"/>
+   <linked-el length="19" name="%11" offset="840" path="%8"/>
+   <linked-el length="19" name="%11" offset="967" path="%8"/>
+   <linked-el length="30" name="%11" offset="647" path="%6"/>
+   <linked-el length="26" name="%11" offset="1926" path="%7"/>
+   <linked-el length="16" name="%11" offset="1097" path="%8"/>
+   <linked-el length="17" name="%11" offset="1632" path="%8"/>
+   <linked-el length="17" name="%11" offset="703" path="%8"/>
+   <linked-el length="19" name="%11" offset="1375" path="%8"/>
+   <linked-el length="19" name="%11" offset="1781" path="%7"/>
+   <linked-el length="14" name="%11" offset="1499" path="%8"/>
+   <linked-el length="22" name="%11" offset="1231" path="%8"/>
+   <linked-el length="30" name="%11" offset="1838" path="%8"/>
+   <linked-el length="17" name="%11" offset="1612" path="%7"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/BikeManagmentSystem/src/main/webapp/UserSignUp.jsp" value="%8"/>
+  <alias
+   path="\BikeManagmentSystem\src\main\java\com\java\bms\BikeManagmentImpl.java" value="%1"/>
+  <alias path="/BikeManagmentSystem/src/main/webapp/DashBoard.jsp" value="%7"/>
+  <alias
+   path="/BikeManagmentSystem/src/main/java/com/java/bms/BikeManagmentImpl.java" value="%5"/>
+  <alias path="com.java.bms.User" value="%2"/>
+  <alias path="BmsImpl" value="%9"/>
+  <alias
+   path="/BikeManagmentSystem/src/main/webapp/UserOtpVerification.jsp" value="%6"/>
+  <alias
+   path="/BikeManagmentSystem/src/main/webapp/WEB-INF/faces-config.xml" value="%0"/>
+  <alias
+   path="/BikeManagmentSystem/src/main/java/com/java/bms/User.java" value="%10"/>
+  <alias
+   path="\BikeManagmentSystem\src\main\java\com\java\bms\User.java" value="%3"/>
+  <alias path="com.java.bms.BikeManagmentImpl" value="%4"/>
+  <alias path="user" value="%11"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

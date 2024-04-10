@@ -1,0 +1,54 @@
+package com.java.bms;
+
+import java.util.Map;
+
+import javax.faces.context.FacesContext;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.criterion.Projections;
+import org.hibernate.criterion.Restrictions;
+
+public class BikeManagmentImpl {
+	SessionFactory sf;
+	Session session;
+	
+	public String Login(User user) {
+		Map<String,Object> sessionMap =
+				FacesContext.getCurrentInstance().getExternalContext().getSessionMap();
+		System.out.println("Satya is here"+user);
+		System.out.println(user.getEmail());
+		sf = SessionHelper.getConnection();
+		Session session = sf.openSession();
+		Criteria cr = session.createCriteria(User.class);
+		cr.add(Restrictions.eq("email",user.getEmail()));
+		cr.add(Restrictions.eq("passWord",EncryptPassword.getCode(user.getPassWord())));
+		
+		cr.setProjection(Projections.rowCount());
+		long count = (long) cr.uniqueResult();
+		if(count == 1) {
+			sessionMap.put("user",user);
+			return"Home.jsp?faces-redirect=true";
+		}
+		
+		else {
+			System.out.println("Satya....");
+			sessionMap.put("passWordErr", "Enter a valid password and try again.");
+			
+			return "DashBoard.jsp?faces-redirect=true";
+		}
+	}
+	
+	public String UserSignUp(User user) {
+		Map<String,Object> sessionMap =
+				FacesContext.getCurrentInstance().getExternalContext().getSessionMap();
+		sf = SessionHelper.getConnection();
+		Session session = sf.openSession();
+		Transaction trans = session.beginTransaction();
+		String encr=EncryptPassword.getCode(user.getPassWord());
+		user.setPassWord(encr);
+		
+	}
+}

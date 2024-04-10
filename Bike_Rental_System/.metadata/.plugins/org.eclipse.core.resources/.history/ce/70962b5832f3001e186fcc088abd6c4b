@@ -1,0 +1,12 @@
+package com.java.bms;
+
+import java.sql.Time;
+
+public class Rental {
+	private int rentalId;
+	private int userId;
+	private int bikeId;
+	private Time statrtTime;
+	private Time endTime;
+}
+

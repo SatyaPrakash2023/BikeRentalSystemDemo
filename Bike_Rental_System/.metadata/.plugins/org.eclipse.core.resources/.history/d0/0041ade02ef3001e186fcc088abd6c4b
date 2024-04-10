@@ -1,0 +1,5 @@
+package com.java.bms;
+
+public enum Type {
+
+}

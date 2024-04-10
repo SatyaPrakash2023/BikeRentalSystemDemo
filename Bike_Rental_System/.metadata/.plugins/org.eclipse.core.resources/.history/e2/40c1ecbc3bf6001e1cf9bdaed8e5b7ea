@@ -1,0 +1,358 @@
+<modelVersion>4.0.0</modelVersion>
+<groupId>BikeManagement</groupId>
+<artifactId>BikeManagementSystem</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+<packaging>war</packaging>
+    <name>BikeManagementSystem</name>
+    
+
+
+
+
+<pl
+
+
+ <plug     < <art <version>3.8.1</version>
+
+
+
+
+
+true</
+inherit <
+
+
+			    <sourc
+
+
+
+ 
+
+
+
+>
+
+
+
+    <gro <art <versi
+.0</version>
+
+
+
+
+		
+
+
+
+			nfiguration>
+
+
+
+	ugin>
+
+
+	ugins>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		pendencies>
+
+
+
+
+  
+ <dependenc
+
+    <groupId <artifac <version>4.1.4.Final</version>
+
+  	pendenc ependency>
+   <groupId <artifac <version>7.0.1.Final</version>
+
+
+			pendency>  
+		
+<dependency>
+   <groupId artifac <version> 		<type>pom
+	</type>
+
+  
+  ependency>
+   <groupId <artifac <version>8.0.18</version>
+
+  
+<dependency> 
+   
+		
+<dependency>
+   <groupId artifac <version> 
+		pendency>  
+<dependency>
+   <groupId <artifac <version>1.2</version>
+
+   
+ dependency>
+   <groupId <artifac <version>7.0</version>
+
+		<scope>pro ded</scope
+ 
+ dependency>
+   <groupId <artifac <version>1.6.2</version>
+
+ 		pendency>
+
+ 
+
+
+   <groupId <artifac pendency>
+
+
+<dependency>
+   <groupId <artifac pendency>
+
+
+<!-- Uncommen
+<!--
+
+
+<dependency>
+org.gla
+
+
+    </depen
+
+
+
+
+
+
+
+        <war.mvn.plugin.version>3.4.0</war.mvn.pl
+
+
+
+
+
+
+    <group
+Id>BikeManagement</groupId>
+
+
+
+
+
+<packaging>war</packaging>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+version>3.8.1</version>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+versio
+
+
+
+
+
+
+
+
+
+	   <in
+
+
+
+
+
+								bResources>
+
+
+		
+
+
+
+
+
+	ild>
+
+
+
+
+
+
+
+
+
+    <depend    <grou 
+	<version>${jersey.version}</version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dependency>    <grou <artifactId>hi
+bernate-valid
+
+
+
+
+	
+
+
+	dependency> 
+
+
+	
+
+
+
+e>pom</type>
+
+
+
+
+
+
+
+
+<version>8.0.18</version>
+
+
+
+
+
+
+
+
+<version>2.2.20</version>
+
+
+
+
+dependency>    <grou
+artifactId>jsf-impl</artifactId
+		<version>2.2.14</version>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<version>7.0</version>
+
+
+	<scope>provided</scope
+
+
+
+
+dependency>    <grou <artifactId>javax.mail</artifac
+		<version>1.6.2</version>
+
+
+
+
+
+
+
+ 
+ 
+
+cy>    <grou
+
+
+<!-- Uncommen
+
+
+	<dependency>
+org.glassfish.jersey.media</groupId>
+           <artifactId>jersey-media
+	pendency>
+        -->
+    </d
+
+
+   <jers
+.build.sourceEncoding>UTF-8project.build.
+
+
+
+	operties>
+
+
+
